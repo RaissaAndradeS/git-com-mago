@@ -20,3 +20,8 @@ O git é como um checkpoint do estado do seu projeto. Pense como um jogo e tire 
 Para versionar um arquivo: ```git init . ``` e ai vai ser uma pasta oculta e para visualizar, o comando é: ```ls -a```. <br>
 Para visualizar o status do projeto, ```git status```. <br>
 Para adicionar um arquivo é: ```git add nome do arquivo```. <br>
+Para ver o histórico é: ```git log```. <br>
+Para adicionar tudo ao mesmo tempo: ```git add .``` <br>
+Para resetar é: ```git reset```. <br>
+Para ver as versões é: ```git log```. <br>
+Isso é um checkpoint, um ciclo de vida de um desenvolvimento. 
