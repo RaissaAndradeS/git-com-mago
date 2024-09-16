@@ -24,4 +24,23 @@ Para ver o histórico é: ```git log```. <br>
 Para adicionar tudo ao mesmo tempo: ```git add .``` <br>
 Para resetar é: ```git reset```. <br>
 Para ver as versões é: ```git log```. <br>
+Para retornar o pós commit é: ```git reser idCommit```. <br>    
 Isso é um checkpoint, um ciclo de vida de um desenvolvimento. 
+
+## <center> Branch </center>
+
+A branch é uma ramificação do projeto, a branch principal que é a main ou a master e posso fazer ramificações para não mexer na branch principal. 
+
+Comando de branch : ```git branch ```. <br>
+Para mudar para uma outra/ nova branch é ```git checkout -b nome```. <br>
+
+## <center> Merge </center>
+
+Para fazer o Merge:
+- um git checkout;
+- um git branch;
+- um git merge nova;
+
+Para deletar a branch: git branch -D nome
+
+*É uma boa prática deletar a branch após o merge.*
